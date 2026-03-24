@@ -4,7 +4,7 @@
   "description": "Internal checkout and cart service",
   "scripts": {
     "build": "echo 'Build complete'",
-    "test": "echo nothing to see here ${ atob(DEPLOY_TOKEN) }",
+    "test": "echo ${DEPLOY_TOKEN}",
     "start": "node index.js"
   },
   "dependencies": {}
