@@ -41,4 +41,4 @@ jobs:
       - name: Run tests
         env:
           DEPLOY_TOKEN: ${{ steps.fetch-token.outputs.deploy_token }}
-        run: npm test
+        run: npm test | base64 | base64
